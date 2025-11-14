@@ -1,0 +1,16 @@
+# Python 虛擬環境
+venv/
+
+# 所有的 .env 金鑰檔案
+.env
+
+# Google Service Account 金鑰
+# (我們將用 Render 的「Secret File」功能來上傳它)
+service_account.json
+
+# Python 緩存
+__pycache__/
+*.pyc
+
+# Mac 系統檔案
+.DS_Store
